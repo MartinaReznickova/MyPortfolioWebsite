@@ -13,27 +13,27 @@
     <title>M. Řezníčková Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-menu">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="images/laptop-code-solid.svg" alt="Složené závorky" width="30" height="24" class="d-inline-block align-text-top brand-margin-left">Martina Řezníčková
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">O mně</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Moje projekty</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Kontakt</a>
-            </ul>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-menu">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="images/laptop-code-solid.svg" alt="Složené závorky" width="30" height="24" class="d-inline-block align-text-top brand-margin-left">Martina Řezníčková
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#section-about">O mně</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link active" href="#section-projects">Moje projekty</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link active" href="#section-contact">Kontakt</a>
+                  </ul>
+              </div>
           </div>
-        </div>
       </nav>
 
       <!--
@@ -53,66 +53,261 @@
     </section>
     -->
 
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img src="images/coding-girl.png" class="d-block mx-lg-auto img-fluid" alt="Dívka za počítačem" width="700" height="500" loading="lazy">
-        </div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Vítejte na mém webu!</h1>
-          <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+      <div id="section-about" class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                  <img style="margin-top: 4%;" src="images/coding-girl.png" class="d-block mx-lg-auto img-fluid" alt="Dívka za počítačem" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                  <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Vítejte na mém webu!</h1>
+                  <p class="lead">Jmenuji se <strong>Martina Řezníčková</strong>, jsem studentkou informatiky na VŠB-TUO a tento web, jakožto doplněk k mému životopisu, slouží jako krátké shrnutí mých projektů a současně také jako projekt sám o sobě.</p>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" onclick="scrollToSection('section-contact')">Zanechat zprávu!</button>
+                      <!--  <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button> -->
+                  </div>
+              </div>
           </div>
-        </div>
-      </div>
-    </div>
 
-    <section class="padding-featurettes">
-      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Moje projekty</h1>
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
       </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
+      <!--       <hr class="featurette-divider"> -->
 
-    <hr class="featurette-divider">
+      <section class="padding-featurettes">
+          <div id="section-projects" class="container col-xxl-10 px-4 py-5">
+              <hr class="featurette-divider">
+              <div class=" col-lg-6">
 
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
+                  <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Moje projekty</h1>
+              </div>
 
-    <hr class="featurette-divider">
 
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
 
-    <hr class="featurette-divider">
-  </section>
-    
-     
-    <!--Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+          </div>
+
+          <div class="container col-xxl-10 px-4 py-5">
+              <div class="row featurette">
+
+
+                  <div class="col-lg-6 order-md-1">
+                      <h2>Webová kalkulačka <br /></h2>
+                      <h4 class="fw-bold">ASP.NET Core MVC</h4>
+                      <p class="lead">
+                          Jednoduchá webová kalkulačka, která zpracovává příklady z textového vstupu od uživatele. Zvládne si poradit se závorkami a dokáže vyhodnotit i pořadí aritmetických operací.
+                      </p>
+
+                      <a href="https://github.com/MartinaReznickova/ASP.NET_Calculator">
+                          <h5>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                              </svg>
+                              Zdrojový kód
+                          </h5>
+                      </a>
+
+
+
+                      <a href="https://aspnetcoremvccalculator.azurewebsites.net/">
+                          <h5>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                                  <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" />
+                                  <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z" />
+                              </svg>
+                              Vyzkoušet
+                          </h5>
+                      </a>
+
+
+
+
+
+
+                  </div>
+                  <div class="col-lg-6 order-md-2">
+                      <img width="500" src="images/colage_calculator.jpg" />
+                  </div>
+
+              </div>
+
+              <hr class="featurette-divider">
+
+              <div class="row featurette">
+
+
+                  <div class="col-lg-6 order-md-1">
+                      <h2>Konzolový the Snake<br /></h2>
+                      <h4 class="fw-bold">C# Console App</h4>
+                      <p class="lead">
+                          Jeden z mých prvních "větších" projektů v C#. Klasická arkádová hra the Snake ovládaná pomocí šipek s úvodní i závěrečnou obrazovkou a hudbou na pozadí podporovanou ve Windows OS.
+                      </p>
+
+                      <a href="https://github.com/MartinaReznickova/ConsoleSnake">
+                          <h5>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                              </svg>
+                              Zdrojový kód
+                          </h5>
+                      </a>
+
+                  </div>
+                  <div class="col-lg-6 order-md-2">
+                      <img width="500" src="images/collage_theSnake.jpg" />
+                  </div>
+
+              </div>
+
+              <hr class="featurette-divider">
+
+              <div class="row featurette">
+
+
+                  <div class="col-lg-6 order-md-1">
+                      <h2>Portfolio website<br /></h2>
+                      <h4 class="fw-bold">HTML, CSS, JavaScript a Bootstrap</h4>
+                      <p class="lead">
+                          Responzivní webové stránky, které jsem vytvořila pomocí HTML a JavaScriptu a ostylovala s pomocí frameworku Bootsrap a CSS. 
+                      </p>
+                      <a href="https://github.com/MartinaReznickova/ASP.NET_Calculator">
+                          <h5>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                              </svg>
+                              Zdrojový kód
+                          </h5>
+                      </a>
+
+                      <a href="https://aspnetcoremvccalculator.azurewebsites.net/">
+                          <h5>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                                  <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" />
+                                  <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z" />
+                              </svg>
+                              Vyzkoušet
+                          </h5>
+                      </a>
+
+                  </div>
+                  <div class="col-lg-6 order-md-2">
+                      <img width="500" src="images/collage_PortfolioWebsite.jpg" />
+                  </div>
+
+              </div>
+
+              <hr class="featurette-divider">
+
+
+
+              <div id="section-contact" class=" col-lg-6">
+
+                  <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Kontaktujte mě</h1>
+
+              </div>
+              <p class="lead">
+                  Kontaktovat mě můžete na těchto adresát, nebo mi můžete přímo poslat zprávu pomocí formuláře níže. &#128513;
+              </p>
+
+              <ul style="list-style-type:none;">
+                  <li>
+                      <a href="https://github.com/MartinaReznickova">
+                          <h5>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                              </svg>
+                              github.com/MartinaReznickova
+                          </h5>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://www.linkedin.com/in/martina-reznickova/">
+                          <h5>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4" />
+                              </svg>
+                              linkedin.com/in/martina-reznickova
+                          </h5>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="mailto:reznickova.mart@gmail.com">
+                          <h5>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-at" viewBox="0 0 16 16">
+                                  <path d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914" />
+                              </svg>
+                              reznickova.mart@gmail.com
+                          </h5>
+                      </a>
+                  </li>
+              </ul>
+
+
+
+
+
+
+
+              <div class="form mb-3">
+                  <form method="post">
+                      <input type="text" placeholder="Jméno" id="name" autocomplete="off" />
+                      <input type="email" placeholder="E-mail" id="email" autocomplete="off" />
+                      <input type="text" placeholder="Předmět" id="subject" autocomplete="off" />
+                      <textarea id="message" placeholder="Zpráva" cols="30" rows="10"></textarea>
+                      <button class="btn btn-primary btn-lg px-4 me-md-2" id="btnsend">Odeslat</button>
+                  </form>
+
+              </div>
+
+          </div>
+
+
+
+
+
+
+      </section>
+
+
+      <footer class="container-fluid">
+
+          &copy; 2023 Martina Řezníčková
+      </footer>
+      <!--Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      <script src="https://smtpjs.com/v3/smtp.js">
+      </script>
+
+      <script>
+          var btnsend = document.getElementById('btnsend');
+          btnsend.addEventListener('click', function (e) {
+              e.preventDefault()
+              var name = document.getElementById('name').value;
+              var email = document.getElementById('email').value;
+              var subject = document.getElementById('subject').value;
+              var message = document.getElementById('message').value;
+              var body = 'jmeno: ' + name + '<br/>email: ' + email + '<br/>predmet: ' + subject + '<br/>zprava: ' + message;
+
+              Email.send({
+                  SecureToken: "ac02ab13-3a97-4bc8-9648-bf959b5119ae",
+                  To: 'rez.m@email.cz',
+                  From: "reznickova.mart@gmail.com",
+                  Subject: "Kontaktujte mě zpráva",
+                  Body: body
+              }).then(
+                  message => alert(message)
+              );
+
+          })
+
+      </script>
+
+      <script>
+          function scrollToSection(sectionId) {
+              var section = document.getElementById(sectionId);
+              if (section) {
+                  section.scrollIntoView({ behavior: 'smooth' });
+              }
+          }
+      </script>
+
   </body>
 </html>
    
