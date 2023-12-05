@@ -1,47 +1,50 @@
 .py-5 {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
 }
 
-.navbar{
-  position: fixed;
-  width: 100%;
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
- .main-menu{
-  top: -0.4rem;
- }
- .brand-margin-left{
+
+.main-menu {
+    top: -0.4rem;
+}
+
+.brand-margin-left {
     margin: 0 0.5rem 0 0;
- }
+}
 
- .navbar-dark .navbar-brand {
+.navbar-dark .navbar-brand {
     color: #ffffffd5;
     margin-top: 0.7rem;
-  }
+}
 
-  .bg-dark {
+.bg-dark {
     background-color: darkcyan !important;
-  }
+}
 
-  
-  .nav-item{
+
+.nav-item {
     padding: 0 0.5rem;
-  }
+}
 
-  .nav-item:hover, 
-  .nav-item:focus{
-    background-color: rgb(1, 63, 63);
-    cursor: pointer;
-    transform: scale(1.03);
-    -webkit-transition: background-color 1s ease-out;
-    -moz-transition: background-color 1s ease-out;
-    -o-transition: background-color 1s ease-out;
-    transition: background-color 1s ease-out;
-  }
+    .nav-item:hover,
+    .nav-item:focus {
+        background-color: rgb(1, 63, 63);
+        cursor: pointer;
+        transform: scale(1.03);
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color 1s ease-out;
+    }
 
-  .collapse{
+.collapse {
     margin-top: 0.7rem;
-  }
+}
 
 body {
     background: rgb(31 154 154 / 23%);
@@ -59,46 +62,47 @@ footer {
 }
 
 .py-5 {
-    padding-bottom: 1rem!important;
+    padding-bottom: 1rem !important;
 }
-  
-  @media (min-width: 992px) {
-    .rounded-lg-3 { border-radius: .3rem; }
-  }
+
+@media (min-width: 992px) {
+    .rounded-lg-3 {
+        border-radius: .3rem;
+    }
+}
 
 
 .featurette-divider {
-  margin: 5rem 0;
+    margin: 5rem 0;
+    z-index: 0;
 }
 
 
 .featurette-heading {
-  letter-spacing: -.05rem;
+    letter-spacing: -.05rem;
 }
 
-.padding-featurettes{
-  padding: 0 10%;
+.padding-featurettes {
+    padding: 0 10%;
 }
 
 
 @media (min-width: 40em) {
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-   
-  }
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
 
-  .featurette-heading {
-    font-size: 50px;
-    
-  }
+    .featurette-heading {
+        font-size: 50px;
+    }
 }
 
 @media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
+    .featurette-heading {
+        margin-top: 7rem;
+    }
 }
 
 .btn-primary {
@@ -111,16 +115,14 @@ footer {
         background-color: #198a8b;
     }
 
-input, textarea{
+input, textarea {
     width: 100%;
     margin: 6px 0px;
     border: none;
     outline: none;
-
-    
 }
 
-.form{
+.form {
     padding: 6px;
 }
 
@@ -129,43 +131,31 @@ img {
     max-width: 100%;
     margin-top: 2%;
     filter: drop-shadow();
-  
 }
 
-a h5 {
+a h5, p a{
     color: #7f3b79;
     text-decoration: none;
-
-    
 }
+
+    p a:hover {
+        color: #7f3b79;
+        text-decoration: none;
+    }
 
 h5 {
     text-decoration: none;
     font-weight: bold;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 p, h4, h2, h1 {
     color: #324c55;
-
 }
 
-.lead{
+.lead {
     font-weight: 400;
 }
-
-
-
-
-
-
-
-
-  
-
-
-
-
