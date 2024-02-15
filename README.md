@@ -3,8 +3,6 @@ Responzivní webové stránky, které jsem vytvořila prostřednictvím HTML a J
 
 EN: Responsive websites that I created using HTML and JavaScript and styled with the Bootstrap framework and CSS. This website serves as a supplement to my resume, showcasing examples of my projects. And last but not least, it is a project in itself.
 
-[Vyzkoušet](https://portfoliowebsiterez.z6.web.core.windows.net/)
-
 # Challenges
 Nejvetší challenge pro mě bylo zakomponovat do projektu i JavaScript, a pak také vytvořit responzivní layout, protože jsem dosud dělala jen statický web bez JavaScriptu. Ale myslím, že tohle se mi nakonec povedlo a stránky se zobrazují pěkně na větších i menších zařízeních.
 
